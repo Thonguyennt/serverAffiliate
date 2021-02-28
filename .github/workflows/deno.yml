@@ -28,4 +28,4 @@ jobs:
           node-version: ${{matrix.node-version}}
       
       - run: npm ci
-      - run: tsc
+      - run: ngh
